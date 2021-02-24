@@ -30,11 +30,10 @@ module.exports = function transform(arr) {
       else {
           sum.push(res[i]);
       }
-      console.log(sum);
+      
   }
     
   
   return sum;
 };
 
-//console.log(transform([1, 2, 3, '--discard-next']));
